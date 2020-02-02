@@ -1,0 +1,1 @@
+kubectl scale replicaset k8s-net-replicaset --replicas=3

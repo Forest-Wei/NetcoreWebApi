@@ -1,0 +1,1 @@
+kubectl expose replicaset k8s-webapi-replicaset --type=LoadBalancer --port=6000 --target-port=80 --name k8s-webapi-rs-service
